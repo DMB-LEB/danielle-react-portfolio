@@ -5,6 +5,7 @@ import Intro from './components/intro';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import Resume from './components/resume';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,8 +16,9 @@ function App() {
   return (
     <>
       <div className="App">
-        <Intro/>
+        <Intro/> 
         <Portfolio/>
+        <Resume/>
         <Contact/>
         <Footer/>
       </div>
